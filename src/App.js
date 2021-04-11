@@ -1,11 +1,18 @@
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// Pages Import
+import Contributors from "./components/contributors/contributors"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
+    <header className="App-header">
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Contributors} />
+        </Switch>
+      </Router>
+    </header>
   );
 }
 

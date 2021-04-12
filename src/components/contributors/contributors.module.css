@@ -78,4 +78,10 @@ main {
 .social:hover {
     color:cyan;
 }
+
+@media screen and (orientation: portrait) {
+    #hero {
+      flex-direction: column;
+    }
   
+  }

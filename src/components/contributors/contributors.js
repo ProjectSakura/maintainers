@@ -16,13 +16,13 @@ const Contributor = () => {
                     return (
                         <Card className={style["card-item"]}>
                             <Card.Body>
-                                <Card.Title className={style["card-title"]}>Demo Name</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Web Developer</Card.Subtitle>
+                                <Card.Title className={style["card-title"]}>{element[0]}</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted">{element[1]}</Card.Subtitle>
                                 <Card.Text className={style["card-content"]}>
-                                Some quick example text to make up the bulk of the card's content.
+                                {element[2]}
                                 </Card.Text>
-                                <Card.Link href="#" className={style["social"]}><i class="fa fa-github fa-2x"></i></Card.Link>
-                                <Card.Link href="#" className={style["social"]}><i className="fa fa-telegram fa-2x"></i></Card.Link>
+                                <Card.Link href={element[3]} className={style["social"]}><i class="fa fa-github fa-2x"></i></Card.Link>
+                                <Card.Link href={element[4]} className={style["social"]}><i className="fa fa-telegram fa-2x"></i></Card.Link>
                             </Card.Body>
                         </Card>
                     );

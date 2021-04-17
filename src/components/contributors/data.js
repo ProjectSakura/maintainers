@@ -5,10 +5,12 @@ const Data = [
     maintainer_github: "https://github.com/LordShen/",
     devices_mantaining: ["Asus Zenfone Max Pro M1"],
     country: "INDIA",
-    country_flag: "flag_link",
+    country_flag:
+      "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/281/flag-india_1f1ee-1f1f3.png",
     more_info: "degenerate weeb",
     telegram_link: "",
     github_link: "",
+    maintainer_photo: "https://avatars.githubusercontent.com/u/30292727?v=4",
   },
   {
     maintainer_name: "LordShen",
@@ -16,10 +18,12 @@ const Data = [
     maintainer_github: "https://github.com/LordShen/",
     devices_mantaining: ["Asus Zenfone Max Pro M1"],
     country: "INDIA",
-    country_flag: "flag_link",
+    country_flag:
+      "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/281/flag-india_1f1ee-1f1f3.png",
     more_info: "degenerate weeb",
     telegram_link: "",
     github_link: "",
+    maintainer_photo: "https://avatars.githubusercontent.com/u/30292727?v=4",
   },
   {
     maintainer_name: "LordShen",
@@ -27,10 +31,12 @@ const Data = [
     maintainer_github: "https://github.com/LordShen/",
     devices_mantaining: ["Asus Zenfone Max Pro M1"],
     country: "INDIA",
-    country_flag: "flag_link",
+    country_flag:
+      "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/281/flag-india_1f1ee-1f1f3.png",
     more_info: "degenerate weeb",
     telegram_link: "",
     github_link: "",
+    maintainer_photo: "https://avatars.githubusercontent.com/u/30292727?v=4",
   },
   {
     maintainer_name: "LordShen",
@@ -38,10 +44,12 @@ const Data = [
     maintainer_github: "https://github.com/LordShen/",
     devices_mantaining: ["Asus Zenfone Max Pro M1"],
     country: "INDIA",
-    country_flag: "flag_link",
+    country_flag:
+      "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/281/flag-india_1f1ee-1f1f3.png",
     more_info: "degenerate weeb",
     telegram_link: "",
     github_link: "",
+    maintainer_photo: "https://avatars.githubusercontent.com/u/30292727?v=4",
   },
   {
     maintainer_name: "LordShen",
@@ -49,27 +57,12 @@ const Data = [
     maintainer_github: "https://github.com/LordShen/",
     devices_mantaining: ["Asus Zenfone Max Pro M1"],
     country: "INDIA",
-    country_flag: "flag_link",
+    country_flag:
+      "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/281/flag-india_1f1ee-1f1f3.png",
     more_info: "degenerate weeb",
     telegram_link: "",
     github_link: "",
-  },
-  {
-    maintainer_name: "LordShen",
-    maintainer_xda: "",
-    maintainer_github: "https://github.com/LordShen/",
-    devices_mantaining: [
-      "Asus Zenfone Max Pro M1",
-      "new mobile",
-      "new mobile",
-      "new mobile",
-      "new mobile",
-    ],
-    country: "INDIA",
-    country_flag: "flag_link",
-    more_info: "degenerate weeb",
-    telegram_link: "",
-    github_link: "",
+    maintainer_photo: "https://avatars.githubusercontent.com/u/30292727?v=4",
   },
   {
     maintainer_name: "LordShen",
@@ -77,10 +70,25 @@ const Data = [
     maintainer_github: "https://github.com/LordShen/",
     devices_mantaining: ["Asus Zenfone Max Pro M1"],
     country: "INDIA",
-    country_flag: "flag_link",
+    country_flag:
+      "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/281/flag-india_1f1ee-1f1f3.png",
     more_info: "degenerate weeb",
     telegram_link: "",
     github_link: "",
+    maintainer_photo: "https://avatars.githubusercontent.com/u/30292727?v=4",
+  },
+  {
+    maintainer_name: "LordShen",
+    maintainer_xda: "",
+    maintainer_github: "https://github.com/LordShen/",
+    devices_mantaining: ["Asus Zenfone Max Pro M1"],
+    country: "INDIA",
+    country_flag:
+      "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/281/flag-india_1f1ee-1f1f3.png",
+    more_info: "degenerate weeb",
+    telegram_link: "",
+    github_link: "",
+    maintainer_photo: "https://avatars.githubusercontent.com/u/30292727?v=4",
   },
 ];
 export default Data;

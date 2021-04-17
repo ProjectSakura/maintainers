@@ -7,7 +7,7 @@ import { Button } from "react-bootstrap";
 const Contributor = () => {
   return (
     <div>
-      <Button>GO Back to the main website</Button>
+      {/* <Button>GO Back to the main website</Button> */}
       <main>
         <div className={style["hero"]}>
           <div className={style["heading"]}>
@@ -21,9 +21,15 @@ const Contributor = () => {
             return (
               <Card className={style["card-item"]}>
                 <Card.Body>
+                  <img
+                    src={element.maintainer_photo}
+                    alt=""
+                    style={{ width: "50%", borderRadius: "50%" }}
+                  />
                   <Card.Title className={style["card-title"]}>
                     {element.maintainer_name}
                   </Card.Title>
+
                   <Card.Subtitle className="mb-2">
                     {element.devices_mantaining.map((device, idx) => {
                       if (idx === element.devices_mantaining.length - 1) {
@@ -33,8 +39,11 @@ const Contributor = () => {
                     })}
                   </Card.Subtitle>
                   <Card.Text className={style["card-content"]}>
-                    {element.country}
-                    <img src={element.country_flag} alt={""} />
+                    <img
+                      src={element.country_flag}
+                      alt={""}
+                      style={{ width: "30px" }}
+                    />
                   </Card.Text>
                   <Card.Link href={element[3]} className={style["social"]}>
                     <i class="fa fa-github fa-2x"></i>

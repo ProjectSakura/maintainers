@@ -1,34 +1,54 @@
 import React from "react";
 import style from "./contributors.module.css";
-import Card from 'react-bootstrap/Card';
-import Data from './data';
+import Card from "react-bootstrap/Card";
+import Data from "./data";
+import { Button } from "react-bootstrap";
 
 const Contributor = () => {
-    return (
-        <main>
-            <div id={style["hero"]}>
-                <div id={style["heading"]}>
-                    <div id={style["title"]}>Contributors&nbsp;<i className="fa fa-users"></i></div>
-                </div>
+  return (
+    <div>
+      <Button>GO Back to the main website</Button>
+      <main>
+        <div className={style["hero"]}>
+          <div className={style["heading"]}>
+            <div className={style["title"]}>
+              Contributors&nbsp;<i className="fa fa-users"></i>
             </div>
-            <div className={style["all-cards"]}>
-                {Data.map((element, i) => {
-                    return (
-                        <Card className={style["card-item"]}>
-                            <Card.Body>
-                                <Card.Title className={style["card-title"]}>{element[0]}</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">{element[1]}</Card.Subtitle>
-                                <Card.Text className={style["card-content"]}>
-                                {element[2]}
-                                </Card.Text>
-                                <Card.Link href={element[3]} className={style["social"]}><i class="fa fa-github fa-2x"></i></Card.Link>
-                                <Card.Link href={element[4]} className={style["social"]}><i className="fa fa-telegram fa-2x"></i></Card.Link>
-                            </Card.Body>
-                        </Card>
-                    );
-                })}
-            </div>
-        </main>
-    );
+          </div>
+        </div>
+        <div className={style["all-cards"]}>
+          {Data.map((element, i) => {
+            return (
+              <Card className={style["card-item"]}>
+                <Card.Body>
+                  <Card.Title className={style["card-title"]}>
+                    {element.maintainer_name}
+                  </Card.Title>
+                  <Card.Subtitle className="mb-2">
+                    {element.devices_mantaining.map((device, idx) => {
+                      if (idx === element.devices_mantaining.length - 1) {
+                        return device;
+                      }
+                      return device + ", ";
+                    })}
+                  </Card.Subtitle>
+                  <Card.Text className={style["card-content"]}>
+                    {element.country}
+                    <img src={element.country_flag} alt={""} />
+                  </Card.Text>
+                  <Card.Link href={element[3]} className={style["social"]}>
+                    <i class="fa fa-github fa-2x"></i>
+                  </Card.Link>
+                  <Card.Link href={element[4]} className={style["social"]}>
+                    <i className="fa fa-telegram fa-2x"></i>
+                  </Card.Link>
+                </Card.Body>
+              </Card>
+            );
+          })}
+        </div>
+      </main>
+    </div>
+  );
 };
 export default Contributor;

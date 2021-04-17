@@ -12,7 +12,7 @@ const Contributor = () => {
         <div className={style["hero"]}>
           <div className={style["heading"]}>
             <div className={style["title"]}>
-              Contributors&nbsp;<i className="fa fa-users"></i>
+              Meet the Team&nbsp;<i className="fa fa-users"></i>
             </div>
           </div>
         </div>
@@ -45,10 +45,10 @@ const Contributor = () => {
                       style={{ width: "30px" }}
                     />
                   </Card.Text>
-                  <Card.Link href={element[3]} className={style["social"]}>
+                  <Card.Link href={element.github_link} className={style["social"]}>
                     <i class="fa fa-github fa-2x"></i>
                   </Card.Link>
-                  <Card.Link href={element[4]} className={style["social"]}>
+                  <Card.Link href={element.telegram_link} className={style["social"]}>
                     <i className="fa fa-telegram fa-2x"></i>
                   </Card.Link>
                 </Card.Body>

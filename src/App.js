@@ -9,7 +9,7 @@ function App() {
     <header className="App-header">
       <Router>
         <Switch>
-          <Route exact path="/contributors" component={Contributors} />
+          <Route exact path="/maintainers" component={Contributors} />
         </Switch>
       </Router>
     </header>

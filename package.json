@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Projectsakura.github.io/contributors",
-  "name": "contributors",
+  "homepage": "https://Projectsakura.github.io/maintainers",
+  "name": "maintainers",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -89,6 +89,22 @@ main {
   margin-top: 40px;
   gap: 40px;
 }
+
+.Main-logo {
+  margin-left: -15px;
+  font-size: 25px;
+  color: white;
+}
+
+.Sakura {
+  color: #64b1f3;
+}
+
+.spring {
+  color: white;
+  float: right;
+}
+
 @media screen and (orientation: portrait) {
   #hero {
     flex-direction: column;

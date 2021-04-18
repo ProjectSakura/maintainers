@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import style from "./contributors.module.css";
 import Card from "react-bootstrap/Card";
 import { Button } from "react-bootstrap";
+import Image from "./logo.png";
+import AdComponent from "../AdComponent/AdComponent";
 
 const Contributor = () => {
   const [arr, setarr] = React.useState([]);
@@ -41,7 +43,33 @@ const Contributor = () => {
   return (
     <div>
       <div className={style["go_back"]}>
-        <Button>GO Back to the main website</Button>
+        <a href="https://projectsakura.xyz">
+          <div
+            style={{
+              display: "flex",
+              gap: "30px",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <img
+              style={{
+                width: "50px",
+                height: "50px",
+                borderRadius: "20px",
+                paddingBottom: "2px",
+              }}
+              src={Image}
+              alt="logo"
+            />
+            <div>
+              <h2 className={style["Main-logo"]}>
+                <span>Project</span>
+                <span className={style["Sakura"]}> Sakura</span>
+              </h2>
+            </div>
+          </div>
+        </a>
       </div>
 
       <main>
@@ -67,17 +95,18 @@ const Contributor = () => {
                       alt=""
                       style={{ width: "50%", borderRadius: "50%" }}
                     />
-                    <Card.Title className={style["card-title"]}>
-                      {element.maintainer_name}
+                    <Card.Title
+                      className={style["card-title"]}
+                      style={{ fontSize: "20px" }}
+                    >
+                      <b>{element.maintainer_name}</b>
                     </Card.Title>
 
-                    <Card.Subtitle className="mb-2">
-                      {element.devices_mantaining.map((device, idx) => {
-                        if (idx === element.devices_mantaining.length - 1) {
-                          return device;
-                        }
-                        return device + ", ";
-                      })}
+                    <Card.Subtitle
+                      className="mb-2"
+                      style={{ fontSize: "15px" }}
+                    >
+                      {element.devices_mantaining[0]}
                     </Card.Subtitle>
                     <Card.Text className={style["card-content"]}>
                       <img
@@ -119,7 +148,7 @@ const Contributor = () => {
                       {element.contributor_name}
                     </Card.Title>
 
-                    <Card.Subtitle className="mb-2">
+                    <Card.Subtitle className="mb-2" style={{ size: "15px;" }}>
                       {element.contributing_role.map((device, idx) => {
                         if (idx === element.contributing_role.length - 1) {
                           return device;
@@ -138,13 +167,13 @@ const Contributor = () => {
                       href={element.github_link}
                       className={style["social"]}
                     >
-                      <i className="fa fa-linkedin fa-2x"></i>
+                      <i className="fa fa-github fa-2x"></i>
                     </Card.Link>
                     <Card.Link
                       href={element.linkedin_link}
                       className={style["social"]}
                     >
-                      <i className="fa fa-telegram fa-2x"></i>
+                      <i className="fa fa-linkedin fa-2x"></i>
                     </Card.Link>
                   </Card.Body>
                 </Card>
@@ -153,6 +182,9 @@ const Contributor = () => {
           </div>
         )}
       </main>
+      <center>
+        <AdComponent />
+      </center>
     </div>
   );
 };

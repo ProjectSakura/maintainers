@@ -5,14 +5,11 @@ import image from "./sakura_footer.svg";
 
 const Footer = () => {
   return (
-    <React.Fragment>
+    <>
       <footer className={style["footer"]}>
         <div className={style["info-span"]}>
         <img src={image} alt="img" height="60px" width="260px" className={style["footer-img"]}/>
         <p>Project Sakura is a fully free and Opensource Custom ROM built around LineageOS.</p>
-        <p><div style={{color:"#347ab7"}}><b>EMAIL ADDRESS </b></div>
-            hello@reallygreatsite.com</p>
-            
         </div>
         <ul className={style["footer-nav"]}>
           <li className={style["nav-item"]}>
@@ -82,7 +79,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </React.Fragment>
+    </>
   );
 };
 export default Footer

@@ -21,15 +21,15 @@ const Footer = () => {
               </li>
 
               <li>
-                <Link to="/">Blog</Link>
+                <Link to="/blog.html">Blog</Link>
               </li>
 
               <li>
-                <Link to="/">Download Now</Link>
+                <Link to="/download.html">Download Now</Link>
               </li>
 
               <li>
-                <Link to="/">Stats</Link>
+                <Link to="/stats.html">Stats</Link>
               </li>
             </ul>
           </li>

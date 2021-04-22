@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Pages Import
 import Contributors from "./components/contributors/contributors";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Switch>
           <Route exact path="/maintainers" component={Contributors} />
         </Switch>
+        <Footer />
       </Router>
     </header>
   );

@@ -7,14 +7,14 @@ import Footer from "./components/Footer/footer";
 
 function App() {
   return (
-    <header className="App-header">
-      <Router>
-        <Switch>
+    <Router>
+      <Switch>
+        <header className="App-header">
           <Route exact path="/maintainers" component={Contributors} />
-        </Switch>
-        <Footer />
-      </Router>
-    </header>
+        </header>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default class AdComponent extends React.Component {
   componentDidMount() {
@@ -8,13 +8,13 @@ export default class AdComponent extends React.Component {
   render() {
     return (
       <ins
-        class="adsbygoogle"
-        style={{ display: "block" }}
+        className="adsbygoogle"
+        style={{ display: 'block' }}
         data-ad-client="ca-pub-1277633863266032"
         data-ad-slot="8931146882"
         data-ad-format="auto"
         data-full-width-responsive="true"
-      ></ins>
+      />
     );
   }
 }

@@ -1,112 +1,112 @@
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero {
-  display: flex;
+    display: flex;
 }
 
 .heading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin: 4rem 0 2rem 0;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 4rem 0 2rem 0;
+    text-align: center;
 }
 
 .title {
-  display: flex;
-  font-size: 3.5rem;
-  line-height: 4rem;
-  font-weight: bold;
+    display: flex;
+    font-size: 1.5em;
+    line-height: 4rem;
+    font-weight: bold;
 }
 
 .all-cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 95vw;
-  margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95vw;
+    margin: 0.5em;
 }
 
 .card-item {
-  background: #282c35;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1),
-    0px -8px 16px 0px rgba(72, 127, 255, 0.1);
-  -moz-box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1),
-    0px -8px 16px 0px rgba(72, 127, 255, 0.1);
-  box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1),
-    0px -8px 16px 0px rgba(72, 127, 255, 0.1);
-  text-align: center;
-  font-size: 1.5rem;
-  border-radius: 1em;
-  height: auto;
-  width: 18em;
-  margin: 2em;
-  padding: 10px;
-  position: relative;
-  top: 0;
-  transition: top ease 0.5s;
+    background: #191919;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1), 0px -8px 16px 0px rgba(72, 127, 255, 0.1);
+    -moz-box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1), 0px -8px 16px 0px rgba(72, 127, 255, 0.1);
+    box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1), 0px -8px 16px 0px rgba(72, 127, 255, 0.1);
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 1em;
+    height: auto;
+    width: 18em;
+    margin: 2em;
+    padding: 10px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
 
 .card-title {
-  font-size: 1.9rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.9rem;
-  font-weight: bold;
+    font-size: 1.9rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.9rem;
+    font-weight: bold;
 }
 
 .card-item:hover {
-  top: -8px;
+    top: -8px;
 }
 
 .card-content {
-  font-weight: normal;
-  text-align: center;
-  font-size: 1.2rem;
-  width: 100%;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
 }
 
 .social {
-  padding-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .social:hover {
-  color: cyan;
+    color: #c2d6d7;
 }
+
 .go_back {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .switch_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-  gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 2vw;
 }
 
 .Main-logo {
-  margin-left: -15px;
-  font-size: 25px;
-  color: white;
+    margin-left: -15px;
+    font-size: 25px;
+    color: white;
 }
 
 .Sakura {
-  color: #64b1f3;
+    color: #64b1f3;
 }
 
 .spring {
-  color: white;
-  float: right;
+    color: white;
+    float: right;
 }
 
 @media screen and (orientation: portrait) {
-  #hero {
-    flex-direction: column;
-  }
+    #hero {
+        flex-direction: column;
+    }
 }

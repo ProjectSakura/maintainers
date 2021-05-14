@@ -76,14 +76,15 @@ const Contributor = () => {
         <div className={style.hero}>
           <div className={style.heading}>
             <div className={style.title}>
-              Meet the Team&nbsp;
+              {`Meet the ${switchmaintainer ? 'Maintainers' : 'Web Developers'}`}
+              &nbsp;
               <i className="fa fa-users" />
             </div>
           </div>
         </div>
         <div className={style.switch_button}>
-          <Button onClick={() => maintainerClicked()}>Mantainers</Button>
-          <Button onClick={() => contributorClicked()}>Web Developers</Button>
+          <Button size="lg" onClick={() => maintainerClicked()}>Mantainers</Button>
+          <Button size="lg" onClick={() => contributorClicked()}>Web Developers</Button>
         </div>
         {switchmaintainer && (
           <div className={style['all-cards']}>
@@ -93,7 +94,7 @@ const Contributor = () => {
                   <img
                     src={element.maintainer_photo}
                     alt=""
-                    style={{ width: '50%', borderRadius: '50%' }}
+                    style={{ width: '50%', borderRadius: '50%', marginTop: '2vh' }}
                   />
                   <Card.Title
                     className={style['card-title']}
@@ -140,7 +141,7 @@ const Contributor = () => {
                   <img
                     src={element.contributor_photo}
                     alt=""
-                    style={{ width: '50%', borderRadius: '50%' }}
+                    style={{ width: '50%', borderRadius: '50%', marginTop: '2vh' }}
                   />
                   <Card.Title className={style['card-title']}>
                     {element.contributor_name}

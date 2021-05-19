@@ -83,7 +83,7 @@ const Contributor = () => {
           </div>
         </div>
         <div className={style.switch_button}>
-          <Button size="lg" onClick={() => maintainerClicked()}>Mantainers</Button>
+          <Button size="lg" onClick={() => maintainerClicked()}>Maintainers</Button>
           <Button size="lg" onClick={() => contributorClicked()}>Web Developers</Button>
         </div>
         {switchmaintainer && (

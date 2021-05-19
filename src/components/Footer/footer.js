@@ -34,6 +34,18 @@ const Footer = () => (
         </li>
 
         <li className={style['nav-item']}>
+          <h2 className={style['nav-title']}>
+            Sponsored by
+          </h2>
+          <ul ul className={style['nav-ul']}>
+            <li>
+              <p>
+                <a href="https://xsl.tel">
+                  <img src="https://projectsakura.xyz/image/spon-white.png" alt="sponsor logo" />
+                </a>
+              </p>
+            </li>
+          </ul>
           <h2 className={style['nav-title']}>SOCIAL</h2>
           <ul className={style['nav-ul']}>
             <li><p>Be sure to give us a follow on: </p></li>

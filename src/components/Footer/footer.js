@@ -71,19 +71,6 @@ const Footer = () => (
           </div>
         </li>
       </ul>
-      <div className={style['footer-dash']}>
-        <div className={style['footer-text']}>
-          <p>
-            <b style={{ color: 'white' }}>
-              Made with
-              <i className="fa fa-heart" style={{ color: '#DB3328' }} />
-              {' '}
-              by
-              Team Sakura
-            </b>
-          </p>
-        </div>
-      </div>
     </footer>
   </>
 );

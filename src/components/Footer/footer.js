@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import style from './footer.module.css';
 import image from './sakura_footer.svg';
 
@@ -16,19 +15,16 @@ const Footer = () => (
 
           <ul className={style['nav-ul']}>
             <li>
-              <Link to="/">Home</Link>
+              <a href="https://projectsakura.xyz" target="blank">Home</a>
             </li>
-
             <li>
-              <Link to="/blog.html">Blog</Link>
+              <a href="https://projectsakura.xyz/blog" target="blank">Blog</a>
             </li>
-
             <li>
-              <Link to="/download.html">Download Now</Link>
+              <a href="https://projectsakura.xyz/stats.html" target="blank">Stats</a>
             </li>
-
             <li>
-              <Link to="/stats.html">Stats</Link>
+              <a href="https://projectsakura.xyz/download" target="blank">Download</a>
             </li>
           </ul>
         </li>

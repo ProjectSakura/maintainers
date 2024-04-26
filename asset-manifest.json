@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/maintainers/static/css/main.6e960531.chunk.css",
+    "main.js": "/maintainers/static/js/main.daaaf76c.chunk.js",
+    "main.js.map": "/maintainers/static/js/main.daaaf76c.chunk.js.map",
+    "runtime-main.js": "/maintainers/static/js/runtime-main.5e7640fa.js",
+    "runtime-main.js.map": "/maintainers/static/js/runtime-main.5e7640fa.js.map",
+    "static/css/2.17656351.chunk.css": "/maintainers/static/css/2.17656351.chunk.css",
+    "static/js/2.2ac0157b.chunk.js": "/maintainers/static/js/2.2ac0157b.chunk.js",
+    "static/js/2.2ac0157b.chunk.js.map": "/maintainers/static/js/2.2ac0157b.chunk.js.map",
+    "index.html": "/maintainers/index.html",
+    "static/css/2.17656351.chunk.css.map": "/maintainers/static/css/2.17656351.chunk.css.map",
+    "static/css/main.6e960531.chunk.css.map": "/maintainers/static/css/main.6e960531.chunk.css.map",
+    "static/js/2.2ac0157b.chunk.js.LICENSE.txt": "/maintainers/static/js/2.2ac0157b.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/maintainers/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/bootstrap.min.css": "/maintainers/static/media/glyphicons-halflings-regular.be810be3.woff2",
+    "static/media/logo.1b917980.png": "/maintainers/static/media/logo.1b917980.png",
+    "static/media/sakura_footer.f18563ea.svg": "/maintainers/static/media/sakura_footer.f18563ea.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e7640fa.js",
+    "static/css/2.17656351.chunk.css",
+    "static/js/2.2ac0157b.chunk.js",
+    "static/css/main.6e960531.chunk.css",
+    "static/js/main.daaaf76c.chunk.js"
+  ]
+}

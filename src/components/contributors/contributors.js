@@ -21,7 +21,7 @@ const Contributor = () => {
   useEffect(() => {
     async function fetchMyAPI() {
       let response = await fetch(
-        'https://raw.githubusercontent.com/ProjectSakura/OTA/11/api/maintainers.json',
+        'https://raw.githubusercontent.com/ProjectSakura/OTA/14/api/maintainers.json',
       );
       response = await response.json();
       setarr(response);
@@ -32,7 +32,7 @@ const Contributor = () => {
   useEffect(() => {
     async function fetchMyAPI() {
       let response = await fetch(
-        'https://raw.githubusercontent.com/ProjectSakura/OTA/11/api/contributors.json',
+        'https://raw.githubusercontent.com/ProjectSakura/OTA/14/api/contributors.json',
       );
       response = await response.json();
       setarr1(response);
